@@ -1,0 +1,9 @@
+D:\Code\WoWBoardHelper\WoWBoardHelper\bin\Debug\WoWBoardHelper.exe.config
+D:\Code\WoWBoardHelper\WoWBoardHelper\obj\Debug\WoWBoardHelper.csprojResolveAssemblyReference.cache
+D:\Code\WoWBoardHelper\WoWBoardHelper\obj\Debug\WoWBoardHelper.Properties.Resources.resources
+D:\Code\WoWBoardHelper\WoWBoardHelper\obj\Debug\WoWBoardHelper.csproj.GenerateResource.Cache
+D:\Code\WoWBoardHelper\WoWBoardHelper\bin\Debug\WoWBoardHelper.exe
+D:\Code\WoWBoardHelper\WoWBoardHelper\bin\Debug\WoWBoardHelper.pdb
+D:\Code\WoWBoardHelper\WoWBoardHelper\obj\Debug\WoWBoardHelper.exe
+D:\Code\WoWBoardHelper\WoWBoardHelper\obj\Debug\WoWBoardHelper.pdb
+D:\Code\WoWBoardHelper\WoWBoardHelper\obj\Debug\WoWBoardHelper.StartScreen.resources
