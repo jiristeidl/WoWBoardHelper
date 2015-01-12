@@ -7,7 +7,7 @@ using WoWBoardHelper.Data.Enums;
 
 namespace WoWBoardHelper.Core
 {
-    internal class Slot
+    public class Slot
     {
         private IEquippable item;
         private SubType[] subTypes;

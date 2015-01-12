@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WoWBoardHelper.Data.Enums
 {
-    internal enum SubType
+    public enum SubType
     {
         None,
         Stance,

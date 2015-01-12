@@ -8,7 +8,7 @@ using WoWBoardHelper.Core.Interfaces;
 
 namespace WoWBoardHelper.Data.Equipables.Abilities
 {
-    internal class BloodFury : IEquippable
+    public class BloodFury : IEquippable
     {
         Enums.EquipableType IEquippable.type
         {

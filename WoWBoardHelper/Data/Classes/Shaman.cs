@@ -11,7 +11,7 @@ using WoWBoardHelper.Data.Equipables.Items;
 
 namespace WoWBoardHelper.Data.Classes
 {
-    internal class Shaman : baseClass
+    public class Shaman : baseClass
     {
         private int[] healthLevel =
         {

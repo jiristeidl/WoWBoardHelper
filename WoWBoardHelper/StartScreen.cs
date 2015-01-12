@@ -19,11 +19,15 @@ namespace WoWBoardHelper
             this.Text = Properties.Resources.AppTitle;
             this.choosePlayers.Text = Properties.Resources.ChoosePlayers;
             this.startGame.Text = Properties.Resources.StartGame;
+
+            Global.CurrentPlayer = 1;
         }
 
         private void startGame_Click(object sender, EventArgs e)
         {
-            ClassSelect classSelectForm = new ClassSelect((int)numberOfPlayers.Value);
+            ClassSelect classSelectForm = new ClassSelect();
+            Global.NumberOfPlayers = (int)numberOfPlayers.Value;
+
             this.Visible = false;
             classSelectForm.ShowDialog();
             this.Close();

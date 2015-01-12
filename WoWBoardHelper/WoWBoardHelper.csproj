@@ -50,6 +50,8 @@
     <Compile Include="ClassSelect.Designer.cs">
       <DependentUpon>ClassSelect.cs</DependentUpon>
     </Compile>
+    <Compile Include="Core\Global.cs" />
+    <Compile Include="Core\Helpers.cs" />
     <Compile Include="Core\Interfaces\IEquippable.cs" />
     <Compile Include="Core\Interfaces\IPlayerClass.cs" />
     <Compile Include="Core\Inventory.cs" />
@@ -74,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ClassSelect.resx">
+      <DependentUpon>ClassSelect.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StartScreen.resx">
       <DependentUpon>StartScreen.cs</DependentUpon>
     </EmbeddedResource>

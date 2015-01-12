@@ -9,7 +9,7 @@ using WoWBoardHelper.Data.Enums;
 
 namespace WoWBoardHelper.Data.Classes
 {
-    internal abstract class baseClass : IPlayerClass
+    public abstract class baseClass : IPlayerClass
     {
         public int CurrentGold;
         public int CurrentLevel;

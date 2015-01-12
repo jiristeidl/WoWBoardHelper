@@ -7,7 +7,7 @@ using WoWBoardHelper.Core.Interfaces;
 
 namespace WoWBoardHelper.Data.Equipables.Items
 {
-    internal class startingBandage : IEquippable
+    public class startingBandage : IEquippable
     {
         public Enums.EquipableType type
         {

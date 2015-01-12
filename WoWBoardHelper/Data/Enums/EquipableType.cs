@@ -5,7 +5,7 @@ using System.Text;
 
 namespace WoWBoardHelper.Data.Enums
 {
-    internal enum EquipableType
+    public enum EquipableType
     {
         None,
         Aura,

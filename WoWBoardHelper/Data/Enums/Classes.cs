@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WoWBoardHelper.Data.Enums
 {
-    internal enum Classes
+    public enum Classes
     {
         Shaman
     }

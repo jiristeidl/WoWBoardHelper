@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WoWBoardHelper.Core.Interfaces
 {
-    internal interface IPlayerClass
+    public interface IPlayerClass
     {
         int CurrentHealth { get; set; }
 

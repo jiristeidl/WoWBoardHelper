@@ -7,7 +7,7 @@ using WoWBoardHelper.Data.Enums;
 
 namespace WoWBoardHelper.Core.Interfaces
 {
-    internal interface IEquippable
+    public interface IEquippable
     {
         EquipableType type { get; }
 

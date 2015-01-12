@@ -61,6 +61,33 @@ namespace WoWBoardHelper.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Povolání.
+        /// </summary>
+        internal static string _class {
+            get {
+                return ResourceManager.GetString("_class", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hráč.
+        /// </summary>
+        internal static string _player {
+            get {
+                return ResourceManager.GetString("_player", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rasa.
+        /// </summary>
+        internal static string _race {
+            get {
+                return ResourceManager.GetString("_race", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Warcraft.
         /// </summary>
         internal static string AppTitle {
@@ -79,11 +106,47 @@ namespace WoWBoardHelper.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hráč {0}, vyber si svoje povolaní.
+        /// </summary>
+        internal static string ChooseClassPlayer {
+            get {
+                return ResourceManager.GetString("ChooseClassPlayer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Vyber počet hráčů:.
         /// </summary>
         internal static string ChoosePlayers {
             get {
                 return ResourceManager.GetString("ChoosePlayers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Výběr povolaní.
+        /// </summary>
+        internal static string classSelect {
+            get {
+                return ResourceManager.GetString("classSelect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vyber povolání.
+        /// </summary>
+        internal static string ConfirmClass {
+            get {
+                return ResourceManager.GetString("ConfirmClass", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jméno Hráče.
+        /// </summary>
+        internal static string PlayerName {
+            get {
+                return ResourceManager.GetString("PlayerName", resourceCulture);
             }
         }
         

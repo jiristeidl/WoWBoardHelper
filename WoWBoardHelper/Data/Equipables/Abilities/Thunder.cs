@@ -7,7 +7,7 @@ using WoWBoardHelper.Core.Interfaces;
 
 namespace WoWBoardHelper.Data.Equipables.Abilities
 {
-    internal class Thunder : IEquippable
+    public class Thunder : IEquippable
     {
         public Enums.EquipableType type
         {

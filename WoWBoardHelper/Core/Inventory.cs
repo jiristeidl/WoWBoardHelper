@@ -6,7 +6,7 @@ using WoWBoardHelper.Core.Interfaces;
 
 namespace WoWBoardHelper.Core
 {
-    internal class Inventory
+    public class Inventory
     {
         private Slot[] slots;
 
@@ -24,7 +24,7 @@ namespace WoWBoardHelper.Core
             }
         }
 
-        internal bool Equip(IEquippable item)
+        public bool Equip(IEquippable item)
         {
             Slot slot = slots.FirstOrDefault(s => !s.isFull() && s.canEquip(item));
             if (slot != null)

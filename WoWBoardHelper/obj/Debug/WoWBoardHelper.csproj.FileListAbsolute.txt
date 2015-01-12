@@ -7,3 +7,4 @@ D:\Code\WoWBoardHelper\WoWBoardHelper\bin\Debug\WoWBoardHelper.pdb
 D:\Code\WoWBoardHelper\WoWBoardHelper\obj\Debug\WoWBoardHelper.exe
 D:\Code\WoWBoardHelper\WoWBoardHelper\obj\Debug\WoWBoardHelper.pdb
 D:\Code\WoWBoardHelper\WoWBoardHelper\obj\Debug\WoWBoardHelper.StartScreen.resources
+D:\Code\WoWBoardHelper\WoWBoardHelper\obj\Debug\WoWBoardHelper.ClassSelect.resources

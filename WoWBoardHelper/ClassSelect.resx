@@ -117,49 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Warcraft</value>
-  </data>
-  <data name="BloodFury" xml:space="preserve">
-    <value>Zuřivost krve</value>
-  </data>
-  <data name="ChoosePlayers" xml:space="preserve">
-    <value>Vyber počet hráčů:</value>
-  </data>
-  <data name="RoughStaff" xml:space="preserve">
-    <value>Hrubá hůl</value>
-  </data>
-  <data name="Shaman" xml:space="preserve">
-    <value>Šaman</value>
-  </data>
-  <data name="StartGame" xml:space="preserve">
-    <value>Začít Hru</value>
-  </data>
-  <data name="startingBandage" xml:space="preserve">
-    <value>Původní bandáže</value>
-  </data>
-  <data name="Thunder" xml:space="preserve">
-    <value>Blesk</value>
-  </data>
-  <data name="classSelect" xml:space="preserve">
-    <value>Výběr povolaní</value>
-  </data>
-  <data name="ChooseClassPlayer" xml:space="preserve">
-    <value>Hráč {0}, vyber si svoje povolaní</value>
-  </data>
-  <data name="ConfirmClass" xml:space="preserve">
-    <value>Vyber povolání</value>
-  </data>
-  <data name="PlayerName" xml:space="preserve">
-    <value>Jméno Hráče</value>
-  </data>
-  <data name="_class" xml:space="preserve">
-    <value>Povolání</value>
-  </data>
-  <data name="_player" xml:space="preserve">
-    <value>Hráč</value>
-  </data>
-  <data name="_race" xml:space="preserve">
-    <value>Rasa</value>
-  </data>
 </root>

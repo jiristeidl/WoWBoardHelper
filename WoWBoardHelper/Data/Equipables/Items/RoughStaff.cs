@@ -7,7 +7,7 @@ using WoWBoardHelper.Core.Interfaces;
 
 namespace WoWBoardHelper.Data.Equipables.Items
 {
-    internal class RoughStaff : IEquippable
+    public class RoughStaff : IEquippable
     {
         public Enums.EquipableType type
         {
