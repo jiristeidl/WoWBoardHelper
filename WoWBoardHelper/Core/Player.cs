@@ -1,5 +1,8 @@
-﻿using WoWBoardHelper.Core.Interfaces;
-using WoWBoardHelper.Data.Classes;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using WoWBoardHelper.Data.Enums;
 
 namespace WoWBoardHelper.Core
@@ -8,17 +11,27 @@ namespace WoWBoardHelper.Core
     {
         public string Name { get; set; }
 
-        public int Gold { get; set; }
+        private Dictionary<int, Character> characters;
+        private int selectedChar;
 
-        public IPlayerClass Class { get; set; }
-
-        public int Experience { get; set; }
-
-        public Player(Classes selectedClass, Sides side, string name)
+        public Player(string name)
         {
             this.Name = name;
-            var test = (int)selectedClass;
-            this.Class = Helpers.CreateNewPlayerClass(selectedClass, side);
+            characters = new Dictionary<int, Character>();
+            selectedChar = 1;
+        }
+
+        public void AddCharacter(Classes selectedClass, Sides side)
+        {
+            if (characters.Count < 2)
+            {
+                characters.Add(selectedChar, new Character(selectedClass, side));
+                selectedChar++;
+            }
+            else
+            {
+                throw new InvalidOperationException("Can't control more then two characters");
+            }
         }
     }
 }

@@ -18,7 +18,7 @@ namespace WoWBoardHelper.Core
             this.typeOne = typeOne;
             this.typeTwo = typeTwo;
             this.subTypes = subTypes;
-            if (subTypes.All(t => t == null))
+            if (subTypes.All(t => t == 0))
             {
                 this.subTypes = new SubType[1]{
                     SubType.None
@@ -26,11 +26,11 @@ namespace WoWBoardHelper.Core
             }
         }
 
-        public bool EquipItem(IEquippable item)
+        public bool EquipItem(IEquippable itemToEquip)
         {
-            if (canEquip(item))
+            if (canEquip(itemToEquip))
             {
-                this.item = item;
+                this.item = itemToEquip;
                 return true;
             }
             return false;

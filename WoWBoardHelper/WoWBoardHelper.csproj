@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,17 +51,18 @@
     <Compile Include="ClassSelect.Designer.cs">
       <DependentUpon>ClassSelect.cs</DependentUpon>
     </Compile>
-    <Compile Include="Core\Global.cs" />
+    <Compile Include="Core\_Global.cs" />
     <Compile Include="Core\Helpers.cs" />
     <Compile Include="Core\Interfaces\IEquippable.cs" />
     <Compile Include="Core\Interfaces\IPlayerClass.cs" />
     <Compile Include="Core\Inventory.cs" />
+    <Compile Include="Core\Player.cs" />
     <Compile Include="Core\Slot.cs" />
     <Compile Include="Data\Classes\baseClass.cs" />
     <Compile Include="Data\Enums\Classes.cs" />
     <Compile Include="Data\Enums\Sides.cs" />
     <Compile Include="Data\Enums\EquipableType.cs" />
-    <Compile Include="Core\Player.cs" />
+    <Compile Include="Core\Character.cs" />
     <Compile Include="Core\Talent.cs" />
     <Compile Include="Data\Classes\Shaman.cs" />
     <Compile Include="Data\Enums\SubType.cs" />
@@ -68,6 +70,12 @@
     <Compile Include="Data\Equipables\Abilities\Thunder.cs" />
     <Compile Include="Data\Equipables\Items\RoughStaff.cs" />
     <Compile Include="Data\Equipables\Items\startingBandage.cs" />
+    <Compile Include="PlayerCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayerCreate.Designer.cs">
+      <DependentUpon>PlayerCreate.cs</DependentUpon>
+    </Compile>
     <Compile Include="StartScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ClassSelect.resx">
       <DependentUpon>ClassSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayerCreate.resx">
+      <DependentUpon>PlayerCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartScreen.resx">
       <DependentUpon>StartScreen.cs</DependentUpon>

@@ -32,10 +32,8 @@
             this.ClassSelectDropdown = new System.Windows.Forms.ComboBox();
             this.SelectClassBtn = new System.Windows.Forms.Button();
             this.SideSelectDropdown = new System.Windows.Forms.ComboBox();
-            this.PlayerName = new System.Windows.Forms.TextBox();
             this.ClassSelectLabel = new System.Windows.Forms.Label();
             this.SideSelectLabel = new System.Windows.Forms.Label();
-            this.PlayerNameLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Title
@@ -78,13 +76,6 @@
             this.SideSelectDropdown.Size = new System.Drawing.Size(199, 21);
             this.SideSelectDropdown.TabIndex = 3;
             // 
-            // PlayerName
-            // 
-            this.PlayerName.Location = new System.Drawing.Point(281, 135);
-            this.PlayerName.Name = "PlayerName";
-            this.PlayerName.Size = new System.Drawing.Size(199, 20);
-            this.PlayerName.TabIndex = 4;
-            // 
             // ClassSelectLabel
             // 
             this.ClassSelectLabel.AutoSize = true;
@@ -103,24 +94,13 @@
             this.SideSelectLabel.TabIndex = 6;
             this.SideSelectLabel.Text = "label2";
             // 
-            // PlayerNameLabel
-            // 
-            this.PlayerNameLabel.AutoSize = true;
-            this.PlayerNameLabel.Location = new System.Drawing.Point(210, 138);
-            this.PlayerNameLabel.Name = "PlayerNameLabel";
-            this.PlayerNameLabel.Size = new System.Drawing.Size(35, 13);
-            this.PlayerNameLabel.TabIndex = 7;
-            this.PlayerNameLabel.Text = "label3";
-            // 
             // ClassSelect
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(750, 247);
-            this.Controls.Add(this.PlayerNameLabel);
             this.Controls.Add(this.SideSelectLabel);
             this.Controls.Add(this.ClassSelectLabel);
-            this.Controls.Add(this.PlayerName);
             this.Controls.Add(this.SideSelectDropdown);
             this.Controls.Add(this.SelectClassBtn);
             this.Controls.Add(this.ClassSelectDropdown);
@@ -139,9 +119,7 @@
         private System.Windows.Forms.ComboBox ClassSelectDropdown;
         private System.Windows.Forms.Button SelectClassBtn;
         private System.Windows.Forms.ComboBox SideSelectDropdown;
-        private System.Windows.Forms.TextBox PlayerName;
         private System.Windows.Forms.Label ClassSelectLabel;
         private System.Windows.Forms.Label SideSelectLabel;
-        private System.Windows.Forms.Label PlayerNameLabel;
     }
 }

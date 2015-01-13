@@ -11,14 +11,13 @@ namespace WoWBoardHelper.Data.Classes
 {
     public abstract class baseClass : IPlayerClass
     {
-        public int CurrentGold;
-        public int CurrentLevel;
-        public int health;
-        public int mana;
         protected const int StartingGold = 5;
-        public Sides side;
 
-        public baseClass(Sides side)
+        protected int health { get; set; }
+
+        protected int mana { get; set; }
+
+        protected baseClass(Sides side)
         {
             this.CurrentLevel = 1;
 
@@ -36,7 +35,11 @@ namespace WoWBoardHelper.Data.Classes
 
         abstract public Inventory Backpack { get; set; }
 
+        public int CurrentGold { get; set; }
+
         abstract public int CurrentHealth { get; set; }
+
+        public int CurrentLevel { get; set; }
 
         abstract public int CurrentMana { get; set; }
 
@@ -49,6 +52,8 @@ namespace WoWBoardHelper.Data.Classes
         abstract public string name { get; }
 
         abstract public IEquippable Racial { get; }
+
+        public Sides side { get; set; }
 
         abstract public Inventory Spellbook { get; set; }
 

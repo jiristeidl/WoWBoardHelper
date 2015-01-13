@@ -133,6 +133,15 @@ namespace WoWBoardHelper.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Potvrdit.
+        /// </summary>
+        internal static string Confirm {
+            get {
+                return ResourceManager.GetString("Confirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Vyber povolání.
         /// </summary>
         internal static string ConfirmClass {
@@ -147,6 +156,15 @@ namespace WoWBoardHelper.Properties {
         internal static string PlayerName {
             get {
                 return ResourceManager.GetString("PlayerName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hráči {0} vyber si jméno.
+        /// </summary>
+        internal static string PlayerSelectName {
+            get {
+                return ResourceManager.GetString("PlayerSelectName", resourceCulture);
             }
         }
         

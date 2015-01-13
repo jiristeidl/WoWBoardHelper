@@ -31,6 +31,7 @@ namespace WoWBoardHelper.Data.Classes
             11
         };
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA1801:ReviewUnusedParameters", MessageId = "side")]
         public Shaman(Sides side)
             : base(Sides.Horde)
         {
